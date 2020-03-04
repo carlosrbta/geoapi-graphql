@@ -8,7 +8,7 @@ const app = express();
 const port = process.env.PORT || 4000;
 
 app.use(
-  "/graphql",
+  "/",
   express_graphql({
     schema: schema,
     rootValue: resolvers,
