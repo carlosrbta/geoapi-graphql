@@ -1,9 +1,10 @@
 {
   "name": "geoapi-graphql",
   "version": "1.0.0",
-  "description": "",
+  "description": "A public GraphQL API for information about brazilian states, cities.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -17,5 +18,12 @@
     "express": "^4.16.4",
     "express-graphql": "^0.7.1",
     "graphql": "^14.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carlosrbta/geoapi-graphql"
+  },
+  "engines": {
+    "node": "12.x"
   }
 }

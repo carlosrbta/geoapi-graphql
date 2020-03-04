@@ -2,7 +2,12 @@
 
 A public GraphQL API for information about brazilian states, cities.
 
-## Writing queries
+- User can find all `states` or `cities`
+- User can filter `states` by `name` or `short_name` or both
+- User can filter `cities` by `name`
+- User can filter `cities` near by `latitude`, `longitude` and `distance` (km)
+
+### Writing queries
 
 ```graphql
 {
