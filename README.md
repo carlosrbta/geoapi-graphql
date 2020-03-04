@@ -42,3 +42,5 @@ The above GraphQL query will produce the following JSON response:
   }
 }
 ```
+
+Check out [the playground](https://geoapi-graphql.herokuapp.com/) to explore the schema and test out some queries.

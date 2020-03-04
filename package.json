@@ -12,7 +12,7 @@
     "graphql"
   ],
   "author": "Carlos Roberto <carlosrbta@gmail.com>",
-  "homepage": "https://github.com/carlosrbta/geoapi-graphql",
+  "homepage": "https://geoapi-graphql.herokuapp.com/",
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.4",
