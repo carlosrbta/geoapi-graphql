@@ -5,6 +5,7 @@ const resolvers = require("./resolvers.js");
 
 // Create an express server and a GraphQL endpoint
 const app = express();
+const port = process.env.PORT || 4000;
 
 app.use(
   "/graphql",
@@ -15,8 +16,8 @@ app.use(
   })
 );
 
-app.listen(4000, () =>
+app.listen(port, () =>
   console.log(
-    "Express GraphQL Server Now Running On http://localhost:4000/graphql"
+    `Express GraphQL Server Now Running On http://localhost:${port}/graphql`
   )
 );
